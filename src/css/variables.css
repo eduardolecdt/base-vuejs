@@ -1,0 +1,15 @@
+:root {
+  --cor-branco: #ffffff;
+  --cor-preto: #000000;
+
+  --f0: 10px;
+  --f1: 12px;
+  --f2: 14px;
+  --f3: 18px;
+  --f4: 25px;
+  --f5: 35px;
+  --f6: 45px;
+  --f7: 60px;
+
+  --fonte: 'fonte';
+}

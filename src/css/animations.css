@@ -1,0 +1,102 @@
+@keyframes degradeVertical {
+  0% {
+    background-size: 100% 100%;
+  }
+  50% {
+    background-size: 100% 500%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+@keyframes degradeHorizontal {
+  0% {
+    background-size: 100% 100%;
+  }
+  50% {
+    background-size: 500% 100%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes girando {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@keyframes um {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dois {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes tres {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, 50px);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes quatro {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(50px, 0);
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
