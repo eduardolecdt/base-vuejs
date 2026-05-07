@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@braintree/browser-detection": "^2.0.2",
-    "axios": "^1.9.0",
+    "axios": "^1.15.2",
     "mitt": "^3.0.1",
     "pinia": "^3.0.2",
     "uuid": "^11.1.0",
